@@ -13,7 +13,7 @@ public class Dobbelsteen {
         Random dobbelen = new Random();
         this.dobbelsteen1 = dobbelen.nextInt(6) + 1; // nextInt(6) levert de volgende mogelijkheiden: 0, 1, 2, 3, 4, 5. dus + 1 voor dobbelsteen
         this.dobbelsteen2 = dobbelen.nextInt(6) + 1;
-        int totaal = this.dobbelsteen1+this.dobbelsteen2;
+        int totaal = dobbelsteen1 + dobbelsteen2;
 
         return totaal;
     }

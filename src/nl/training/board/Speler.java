@@ -1,6 +1,5 @@
 package nl.training.board;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 class Speler {
@@ -25,13 +24,5 @@ class Speler {
     Scanner inputController() {
         Scanner inputController = new Scanner(System.in);
         return inputController;
-    }
-    void spelerPositie() {
-        // argument Dobbelsteen
-
-        // Argument speler positie op.
-        Board spelerPositieOpBord = new Board();
-        ArrayList<Board> board = new ArrayList<>();
-
     }
 }
