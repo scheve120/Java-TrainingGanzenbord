@@ -4,10 +4,17 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Dobbelsteen {
-    int[] steen = {1,2,3,4,5,6};
-    void gooiDobbelsteen() {
+    int dobbelsteen1;
+    int dobbelsteen2;
+    private int totaal;
+
+    int gooiMetTweeDobbelstenen() {
+
         Random dobbelen = new Random();
-        int gooiSteen1 = dobbelen.nextInt(6);
-        int gooiSteen2 = dobbelen.nextInt(6);
+        this.dobbelsteen1 = dobbelen.nextInt(6) + 1; // nextInt(6) levert de volgende mogelijkheiden: 0, 1, 2, 3, 4, 5. dus + 1 voor dobbelsteen
+        this.dobbelsteen2 = dobbelen.nextInt(6) + 1;
+        int totaal = dobbelsteen1 + dobbelsteen2;
+
+        return totaal;
     }
 }

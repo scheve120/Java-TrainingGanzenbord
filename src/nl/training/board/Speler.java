@@ -5,6 +5,7 @@ import java.util.Scanner;
 class Speler {
     String spelerNaam;
     String actie;
+    int positieSpeler = 0;
 
     void spelerAkties() {
 
@@ -24,6 +25,4 @@ class Speler {
         Scanner inputController = new Scanner(System.in);
         return inputController;
     }
-
-
 }
