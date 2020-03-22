@@ -1,10 +1,12 @@
 package nl.training.board;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 class Speler {
     String spelerNaam;
     String actie;
+    int positieSpeler = 0;
 
     void spelerAkties() {
 
@@ -24,6 +26,12 @@ class Speler {
         Scanner inputController = new Scanner(System.in);
         return inputController;
     }
+    void spelerPositie() {
+        // argument Dobbelsteen
 
+        // Argument speler positie op.
+        Board spelerPositieOpBord = new Board();
+        ArrayList<Board> board = new ArrayList<>();
 
+    }
 }
